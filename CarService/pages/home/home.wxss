@@ -7,19 +7,46 @@
 .topSection {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  height: 100rpx;
+  height: 150rpx;
   width: 100%;
-  background-color: #000;
+  background-color: lightgrey;
+  align-content: center;
+}
+.iconSize {
+  width: 64rpx;
+  height: 64rpx;
+}
+.fflexStart {
+justify-content: flex-start;
 }
 .textC {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  color: #000;
 }
 .ctitle {
   color: #000;
   font-size: 20;
+}
+.sectionTitle {
+  color: #000;
+  font-size: larger;
+  font-weight: 500;
+  align-self: start;
+  margin-left: 20rpx;
+  line-height: 100rpx;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+  margin-left: 20rpx;
+  height: 150rpx;
+  justify-content: center;
 }
