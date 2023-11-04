@@ -2,6 +2,7 @@
   "pages": [
     "pages/home/home",
     "pages/home/certification/certificationInfo",
+    "pages/report/report",
     "pages/mine/mine",
     "pages/index/index",
     "pages/logs/logs"
@@ -37,6 +38,12 @@
         "text": "首页",
         "iconPath": "static/icon/home.png",
         "selectedIconPath": "static/icon/icon_index-active.png"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "text": "报告",
+        "iconPath": "static/icon/icon_order.png",
+        "selectedIconPath": "static/icon/icon_order-active.png"
       },
       {
         "pagePath": "pages/mine/mine",
