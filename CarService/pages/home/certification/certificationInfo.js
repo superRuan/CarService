@@ -8,6 +8,31 @@ Page({
 
   },
 
+  checkCer(envent) {
+     var type = envent["target"]["dataset"]["type"]
+     console.log(type);
+     var filePath = ''
+     
+     switch (type) {
+       case '1':
+        filePath = '../pdf/cer1.pdf'
+         break;
+        case '2':
+          filePath = '../pdf/cer2.pdf'
+          break;
+        case '3':
+          filePath = '../pdf/cer3.pdf'
+            break;
+       default:
+         break;
+     }
+     console.log(filePath);
+     wx.openDocument({
+       filePath: filePath,
+       fileType: 'pdf'
+     })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

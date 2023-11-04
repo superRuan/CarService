@@ -1,12 +1,15 @@
 <!--pages/home/certification/certificationInfo.wxml-->
 <view class="page">
-  <view>
-    <text class="text">点击查看营业执照</text>
+  <view class="iContianer">
+    <text class="text">营业执照</text>
+    <image src="../../../static/cer/cer1.png" mode="widthFix"/>
   </view>
-  <view>
-    <text class="text">点击查看检验检测机构资质认定证书</text>
+  <view class="iContianer">
+    <text class="text">检验检测机构资质认定证书</text>
+    <image src="../../../static/cer/cer1.png" mode="widthFix"/>
   </view>
-  <view>
-    <text class="text">点击查上海道路运输行业备案证明</text>
+  <view class="iContianer">
+    <text class="text">上海道路运输行业备案证明</text>
+    <image src="../../../static/cer/cer1.png" mode="widthFix"/>
   </view>
 </view>
