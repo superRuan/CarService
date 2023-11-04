@@ -1,8 +1,8 @@
 <!--pages/home/home.wxml-->
 <view class="page">
   <view class="container">
-    <view class="topSection">
-      <view class="topSection">
+    <view class="topSection" >
+      <view class="topSection" bind:tap="appointmentCarServince">
         <image class="iconSize" src="../../static/icon/appointment.png" mode="" />
         <view class="textC">
           <text class="ctitle">预约车检</text>

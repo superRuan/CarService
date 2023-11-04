@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/home/login/login.js
 Page({
 
   /**
@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
-
+  formSubmit(e) {
+console.log(e);
+  },
+  certainLogin() {
+    
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -62,18 +67,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-  appointmentCarServince() {
-    wx.navigateTo({
-      url: 'login/login',
-    })
-  },
-
-  checkInfo() {
-    console.log("11111111");
-    wx.navigateTo({
-      url: 'certification/certificationInfo',
-    })
   }
-
 })

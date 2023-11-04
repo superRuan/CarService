@@ -1,2 +1,92 @@
 <!--pages/report/report.wxml-->
-<text>pages/report/report.wxml</text>
+<!-- <text>pages/report/report.wxml</text> -->
+
+<view class="container">
+  <view class="page-body">
+    <view class="page-item">
+      <view
+        class="page-item-div page-item-div-1"
+        bindtap="getReport"
+      >
+        <view class="page-item-div-img">
+          <image src="../../static/icon/baogao.jpg" mode=""/>
+        </view>
+        <view class="page-item-div-text">
+          获取报告
+        </view>
+      </view>
+      <view
+        class="page-item-div"
+        bindtap="getAbnormal"
+      >
+        <view class="page-item-div-img">
+          <image src="../../static/icon/yichang.jpg" mode=""/>
+        </view>
+        <view class="page-item-div-text">
+          异常跟踪
+        </view>
+      </view>
+    </view>
+    <view class="page-item-detail">
+      <view class="page-item-detail-title">
+        全部报告（1）
+      </view>
+      <view class="page-item-detail-name">
+        <view class="page-item-detail-name-div">
+          崔冰心
+        </view>
+      </view>
+      <view class="page-item-detail-year">
+        2023
+      </view>
+      <view class="page-item-detail-reprot">
+        <view class="page-item-detail-reprot-top">
+          <view class="info">
+            <view class="custom-image">
+              <image src="../../static/icon/touxiang.jpg" alt=""/>
+            </view>
+            <view class="custom-name">
+              崔冰心
+            </view>
+          </view>
+          <view class="type-select">
+            <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+              <view class="picker">
+                PDF <view class="to_bottom"></view>
+              </view>
+            </picker>
+          </view>
+        </view>
+        <view class="middle">
+          <view class="middle-title">
+            2023车辆检测报告统计
+          </view>
+          <view class="middle-content">
+            <view class="middel-content-detail">
+              <view class="middel-content-detail-label">
+                日期
+              </view>
+              <view class="middel-content-detail-value">
+                2023年08月08日
+              </view>
+            </view>
+            <view class="middel-content-detail">
+              <view class="middel-content-detail-label">
+                地址
+              </view>
+              <view class="middel-content-detail-value">
+                宝山区检查站
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="footer">
+          <button class="btn">立即查看</button>
+        </view>
+      </view>
+      <view class="report-tip">
+        已获取所有报告
+      </view>
+    </view>
+  </view>
+</view>

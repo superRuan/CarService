@@ -1,0 +1,20 @@
+<!--pages/home/login/login.wxml-->
+<view class="page">
+  <form bindsubmit="formSubmit">
+    <view class="bigCon">
+    <text class="title">姓名/身份证</text>
+  <view class="container">
+    <image src="../../../static/icon/p1.png" mode="" class="icon"/>
+    <input type="text" placeholder="请输入预约人姓名" />
+  </view>
+  <view class="container">
+    <image src="../../../static/icon/idC.png" mode="" class="icon" />
+    <input type="text" placeholder="请输入身份证号" />
+  </view>
+
+  <button class="btn" bind:tap="certainLogin" form-type="submit">
+  <text class="btnTitle">确定登录并开始预约</text>
+  </button>
+  </view>
+  </form>
+</view>
