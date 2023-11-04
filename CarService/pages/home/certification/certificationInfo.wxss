@@ -1,0 +1,8 @@
+/* pages/home/certification/certificationInfo.wxss */
+.text {
+  color: blue;
+  font-size: 40rpx;
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 60rpx;
+}

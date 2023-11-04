@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/home/certification/certificationInfo",
     "pages/mine/mine",
     "pages/index/index",
     "pages/logs/logs"

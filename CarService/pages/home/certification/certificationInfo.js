@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/home/certification/certificationInfo.js
 Page({
 
   /**
@@ -62,13 +62,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-
-  checkInfo() {
-    console.log("11111111");
-    wx.navigateTo({
-      url: 'certification/certificationInfo',
-    })
   }
-
 })

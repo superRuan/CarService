@@ -24,8 +24,8 @@
         <text>检前问卷</text>
       </view>
     </view>
-    <text class="sectionTitle">资质查看</text>
-    <view class="topSection fflexStart">
+    <text class="sectionTitle" >资质查看</text>
+    <view class="topSection fflexStart" bind:tap="checkInfo">
       <view class="item">
         <image class="iconSize" src="../../static/icon/appointment.png" mode="" />
         <text>资质查看</text>

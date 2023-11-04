@@ -1,0 +1,12 @@
+<!--pages/home/certification/certificationInfo.wxml-->
+<view class="page">
+  <view>
+    <text class="text">点击查看营业执照</text>
+  </view>
+  <view>
+    <text class="text">点击查看检验检测机构资质认定证书</text>
+  </view>
+  <view>
+    <text class="text">点击查上海道路运输行业备案证明</text>
+  </view>
+</view>
